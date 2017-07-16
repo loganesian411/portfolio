@@ -1,9 +1,10 @@
 html,
 body {
+	padding: 1%;
     width: 100%;
     height: 100%;
-    /*font-family: 'Josefin Slab', serif;*/
     font-family: 'Josefin Sans', sans-serif;
+    background-color: #D5D5D5;
 }
 
 h1,
@@ -13,4 +14,27 @@ h4,
 h5,
 h6 {
     font-family: 'Rasa', serif;
+}
+
+a {
+    color: #6D7993;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.list-elem {
+	padding: 3px;
 }
